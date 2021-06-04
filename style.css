@@ -17,11 +17,26 @@ body {
   width: 5em;
 }
 
+.card {
+  background-color: #ff0000;
+  color: white;
+}
 .card h1 {
   font-family: Encode + Sans;
   font-weight: 900;
+  margin: 0;
 }
 .card h2 {
   font-family: Montserrat;
   font-weight: 700;
+  margin: 0;
+}
+.card .social-links {
+  fill: white;
+  display: flex;
+  width: 5em;
+  padding: 1em;
+}
+.card .social-links svg {
+  /* padding: 1em; */
 }
