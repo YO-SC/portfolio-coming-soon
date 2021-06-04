@@ -11,10 +11,12 @@ body {
 .container {
   margin: 0 auto;
   max-width: 80%;
+  padding: 3em 0;
 }
 
 .logo {
-  width: 5em;
+  width: 6em;
+  border-radius: 5em;
 }
 
 .card {
