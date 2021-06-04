@@ -13,6 +13,10 @@ body {
   max-width: 60%;
 }
 
+.logo {
+    height: 1em;
+}
+
 .card h1 {
   font-family: Encode + Sans;
   font-weight: 900;
