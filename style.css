@@ -20,16 +20,21 @@ body {
 .card {
   background-color: #ff0000;
   color: white;
+  padding: 5em;
 }
+
 .card .card-text h1 {
   font-family: Encode + Sans;
   font-weight: 900;
   margin: 0;
+  font-size: 3em;
 }
 .card .card-text h2 {
   font-family: Montserrat;
-  font-weight: 700;
+  font-weight: 600;
   margin: 0;
+  font-size: 2em;
+  text-indent: 0.5%;
 }
 .card .social-links {
   fill: white;
