@@ -57,6 +57,38 @@ a {
   margin: 0 0.2em;
 }
 
+#easter {
+  /* width: 2em;
+  height: 2em; */
+  background-color: #ff0000;
+  float: right;
+  border-radius: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 1em;
+  opacity: 0;
+  animation: blinking 2s 5s infinite alternate ease-in;
+}
+#easter:hover{
+  cursor: pointer;
+}
+@keyframes blinking {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#easter i {
+  margin-right: .3em;
+}
+
 /* Mobile View */
 @media (max-width: 768px) {
   .container {
