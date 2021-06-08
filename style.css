@@ -71,22 +71,38 @@ a {
   opacity: 0;
   animation: blinking 2s 5s infinite alternate ease-in;
 }
-#easter:hover{
+#easter:hover {
   cursor: pointer;
 }
 @keyframes blinking {
   0% {
-    opacity: .3;
+    opacity: 0.3;
   }
   50% {
-    opacity: .5;
+    opacity: 0.5;
   }
   100% {
     opacity: 1;
   }
 }
 #easter i {
-  margin-right: .3em;
+  margin-right: 0.3em;
+}
+
+#copyright {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: absolute; 
+  bottom: 0;
+  /* left: 0; */
+  /* margin: 0 auto; */
+  font-family: Montserrat;
+  /* font-weight:400; */
+}
+#copyright p {
+  /* margin-bottom: 0; */
+  padding: .3em;
 }
 
 /* Mobile View */
@@ -116,6 +132,17 @@ a {
   }
   .card .social-links i {
     font-size: 2.3em;
+  }
+
+  #copyright {
+    font-size: .8em;
+    justify-content: center;
+    align-items: center;
+    position: static; 
+    text-align: center;
+  }
+  #copyright p {
+    padding: 0;
   }
 }
 
