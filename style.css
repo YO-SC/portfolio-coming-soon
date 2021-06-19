@@ -47,14 +47,37 @@ a {
   text-indent: 0.5%;
 }
 .card .social-links {
+  /* display: flex; */
   display: flex;
-  fill: white;
-  padding: 4em 0 0 0;
+  /* fill: black; */
+  padding: 3em 0 0 0;
   justify-content: flex-end;
+  /* padding: 0; */
+  margin: 0;
 }
 .card .social-links i {
-  font-size: 3em;
-  margin: 0 0.2em;
+  font-size: 2.3em;
+  margin: 0.4em;
+}
+.card .social-links a {
+  /* background: purple; */
+  /* width: 100%; */
+  /* flex: 1;
+  margin: 1%; */
+  /* border-radius: 50%; */
+  background: white;
+  margin: 5px;
+  color: black;
+  /* flex: 1 0 auto; */
+  border-radius: 50%;
+}
+.card .social-links a:before {
+  content: '';
+  float: left;
+  padding-top: 100%;
+}
+.card .social-links a:hover {
+  background: #ff9090;
 }
 
 #dog-easter {
@@ -93,7 +116,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  position: absolute; 
+  position: absolute;
   bottom: 0;
   /* left: 0; */
   /* margin: 0 auto; */
@@ -102,7 +125,7 @@ a {
 }
 #copyright p {
   /* margin-bottom: 0; */
-  padding: .3em;
+  padding: 0.3em;
 }
 
 /* Mobile View */
@@ -135,10 +158,10 @@ a {
   }
 
   #copyright {
-    font-size: .8em;
+    font-size: 0.8em;
     justify-content: center;
     align-items: center;
-    position: static; 
+    position: static;
     text-align: center;
   }
   #copyright p {
