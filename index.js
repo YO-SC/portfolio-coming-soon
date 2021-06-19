@@ -7,13 +7,13 @@ particlesJS.load('particles-js', './assets/particles.json', function () {
 let dog_easter_button = document.getElementById('dog-easter');
 
 function getRandomDog() {
-  fetch('https://dog.ceo/api/breeds/image/random')
+  fetch('https://random.dog/woof.json')
     .then(function (response) {
       // The API call was successful!
       return response.json();
     })
     .then(function (dog_data) {
-        dog_easter_button.href = dog_data.message;
+      dog_easter_button.href = dog_data.url;
     })
     .catch(function (err) {
       // There was an error
@@ -23,4 +23,4 @@ function getRandomDog() {
 
 getRandomDog();
 
-dog_easter_button.addEventListener('click', getRandomDog)
+dog_easter_button.addEventListener('click', getRandomDog);
